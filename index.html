@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <script src="https://kit.fontawesome.com/75a9555218.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo"><img src="assets/img/logo.png" alt="logo"></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">Sobre</a></li>
+            <li><a href="#services" class="nav__link">Serviços</a></li>
+            <li><a href="#portfolio" class="nav__link">Portifólio</a></li>
+            <li><a href="#contact" class="nav__link">Contato</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://github.com/lucadomingues" target="_blank" class="nav__social-link">
+            <i class="uil fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/lucas-mendes-996087195/" target="_blank" class="nav__social-link">
+            <i class="uil fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Fale Comigo!</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Bem-Vindo ao meu mundo!</span>
+            <h1 class="home__title">Olá, meu nome é Lucas Mendes.<br><span id="efeito">I'm a developer.</span></h1>
+            <a href="#contact" class="nav__link-btn2 btn">Entre em contato</a>
+          </div>
+          <img src="assets/img/home2.JPEG" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="container-carrossel">
+            <div class="carrossel" id="imgs-carrossel">
+              <img src="assets/img/about1.JPEG" alt="" class="about__img">
+              <img src="assets/img/about2.JPEG" alt="" class="about__img">
+              <img src="assets/img/about3.JPEG" alt="" class="about__img">
+            </div>
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title">Sobre mim</h2>
+
+            <p class="about__description">
+              Sou um desenvolver apaixonado por tecnologia. Desde que me interessei na área da programação, estudo diariamente para conseguir a minha primeira oportunidade. Há aproximadamente 1 ano venho desenvolvendo projetos para colocar em prática todo o meu conhecimento.<br><br>
+              Atualmente trabalho como vendedor (<i>Vivo Telefonica Brasil</i>) e tenho boa comunicação, facilidade de aprendizado e a todo momento procuro evoluir continuamente.<br><br>
+              Com isso, alcancei um destaque significativo através do <b>"Rota Cruzada - VIVO"</b> ficando em <i>1º Lugar no estado de São Paulo</i> e <i>4º Lugar Nacionalmente</i>.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Habilidades</span>
+              <span class="tabs__btn" data-target="#award">Conquistas</span>
+              <span class="tabs__btn" data-target="#experience">Experiências</span>
+              <span class="tabs__btn" data-target="#education">Educação & Certificação</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span> - HTML, CSS, JavaScript, PHP, Python, C++</span><br><br>
+                    <span> - Boa comunicação</span><br><br>
+                    <span> - Facilidade de aprendizado</span><br><br>
+                    <span> - Trabalho em equipe</span><br><br>
+                    <span> - Resiliente</span>
+                  </p>
+                  <div class="icons-sobre" style="margin-top: 10px;">
+                    <i class="fa-brands fa-html5" style="color: #ff4000;"></i>
+                    <i class="fa-brands fa-css3-alt" style="color: #004dd1;"></i>
+                    <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                    <i class="fa-brands fa-php" style="color: #906bff;"></i>
+                    <i class="fa-brands fa-python" style="color: #FFD43B;"></i>
+                    <i class="fa-brands fa-bootstrap" style="color: #7429ff;"></i>
+                    <i class="devicon-cplusplus-plain" style="color: rgb(85, 85, 255)"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="award">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Rota Cruzada - Vivo</span><br>1° Lugar no Estado de São Paulo<br><span>2023</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Rota Cruzada - Vivo</span><br>4° Lugar Nacionalmente<br><span>2023</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Desafio de Ideias</span><br>Senai "Duque de Caxias"<br><span>2019</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Vendedor</span><br>Vivo Telefonica Brasil<br><span>2022 - No momento</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Operador de Cobrança</span><br>Mundial Editora<br><span>2020 - 2021</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Tecnólogo em Análise e Desenvolvimento de Sistemas</span><br>UniSALESIANO, Araçatuba-SP<br><span>2024 - 2026</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Técnico em Desenvolvimento de Sistemas</span><br>ETEC Doutor Renato Cordeiro, Birigui-SP<br><span>Jan 2022 - Dez 2022 (Não finalizado)</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Técnico em Eletromecânica</span><br>Senai "Avak Bedouian", Birigui-SP<br><span>2018 - 2019</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Meus Serviços</h2>
+        <p class="section__description">
+          Desenvolvendo soluções eficientes e bem estruturadas. Busco constantemente aprendizado e aprimoramento para contribuir de forma inovadora e eficaz.
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil fa-solid fa-code services__icon"></i>
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">
+              Criar sites responsivos, atraentes e funcionais. Desenvolvendo sistemas personalizados para resolver problemas específicos, como sistemas de gerenciamento ou plataformas interativas.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil fa-solid fa-database services__icon"></i>
+            <h3 class="services__title">Back-End Development</h3>
+            <p class="services__description">
+              Implementar processos e algoritmos essenciais para o funcionamento do sistema, como autenticação do usuário. Garantir que a comunicação entre o front-end e o back-end seja fluida e eficiente.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil fa-solid fa-laptop-code services__icon"></i>
+            <h3 class="services__title">Front-End Development</h3>
+            <p class="services__description">
+              Construir e implementar designs de páginas, funcionalidades visuais interativas e responsivas, garantindo que os usuários possam interagir facilmente com o sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Meus Projetos</h2>
+        <p class="section__description">
+          Desenvolvo projetos que refletem meu compromisso com a inovação, eficiência e resolução de problemas, aplicando conhecimentos técnicos e buscando soluções práticas. A seguir, apresento alguns dos meus principais trabalhos, criados com tecnologias modernas e boas práticas de desenvolvimento.
+        </p>
+
+        <div class="portfolio__container container grid">
+          <a class="portfolio__item" href="assets/projetos/Calculadora/index.html">
+            <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+            
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Calculadora</h3>
+              <p class="portfolio__description">
+                Desenvolvido com uma interface intuitiva, permite cálculos rápidos e precisos.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px;">
+                <i class="fa-brands fa-html5" style="color: #ff4000;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #004dd1;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="portfolio__item" href="assets/projetos/GameJokenpo/indexPag1.html">
+            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Game Jokenpô</h3>
+              <p class="portfolio__description">
+                Este programa simula o jogo Jokenpô, permitindo que o usuário jogue contra a máquina.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px;">
+                <i class="fa-brands fa-html5" style="color: #ff4000;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #004dd1;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="portfolio__item" href="assets/projetos/CEP/index.html">
+            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Pesquisa CEP</h3>
+              <p class="portfolio__description">
+                Este programa permite consultar informações de um endereço a partir de um CEP.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px;">
+                <i class="fa-brands fa-html5" style="color: #ff4000;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #004dd1;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#services" class="portfolio__item" onclick="abrirModal()">
+            <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Interface Gráfica<br>- Interações -</h3>
+              <p class="portfolio__description">
+                Sistema cujos dados são automaticamente transferidos para uma planilha no Excel. Ideal para organizar e armazenar informações de forma estruturada.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px">
+                <i class="fa-brands fa-python" style="color: #FFD43B;"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="portfolio__item" href="assets/projetos/SiteBootstrap/index.html">
+            <img src="assets/img/portfolio5.png" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Bootstrap</h3>
+              <p class="portfolio__description">
+                Site desenvolvido inteiramente com Bootstrap, garantindo um design responsivo, moderno e estruturado.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px;">
+                <i class="fa-brands fa-bootstrap" style="color: #7429ff;"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="portfolio__item" href="assets/projetos/ReservaBancos-DOM/index.html">
+            <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Cartão de Embarque Ônibus</h3>
+              <p class="portfolio__description">
+                Este programa gera cartões de embarque de forma rápida e automatizada, de acordo com a classe e o acento.
+              </p>
+              <div class="icons-portfolio" style="margin-top: 10px;">
+                <i class="fa-brands fa-html5" style="color: #ff4000;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #004dd1;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Contate-me</h2>
+
+            <p class="contact__description">
+              Estou disponível para trabalhar na área e aperfeiçoar meus conhecimentos em TI. Conecte-se comigo pelo e-mail <a href="mailto:lucasdm534@gmail.com">lucasdm534@gmail.com</a> ou telefone <a href="https://web.whatsapp.com/send?phone=5518996366864" target="_blank">(18)99636-6864</a>
+            </p>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" name="name" placeholder="Seu Nome" class="contact__input" id="contact-name">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" name="email" placeholder="Seu Email" class="contact__input" id="contact-email">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" name="subject" placeholder="Assunto" class="contact__input" id="contact-subject">
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Sua Mensagem"></textarea>
+              </div>
+
+              <input type="submit" value="Enviar" class="btn">
+
+              <a href="https://web.whatsapp.com/send?phone=5518996366864" id="btn-whatsapp" target="_blank">WHATSAPP <i class="fa-brands fa-whatsapp"></i></a>
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/contato.JPEG" alt="" class="contact__img">
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo"><img src="assets/img/logo.png" alt="logo"></a>
+
+        <div class="footer__socials">
+          <a href="https://github.com/lucadomingues" target="_blank" class="footer__social-link">
+            <i class="uil fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/lucas-mendes-996087195/" target="_blank" class="footer__social-link">
+            <i class="uil fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright"> &copy; 2025. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- JANELA MODAL -->
+    <div class="janela-modal" id="janela-modal">
+      <div class="modal">
+        <h2>Interface Gráfica - Interações  <i class="fa-brands fa-python" style="color: #FFD43B;"></i></h2><br>
+        <a href="https://github.com/lucadomingues/InterfaceGrafica-PreencheTermo.git" target="_blank" class="cod-github">Código GitHub  <i class="fa-brands fa-github"></i></a><br>
+        <video controls muted autoplay>
+          <source src="assets/img/ReviewSistema.mp4">
+        </video><br>
+        <button class="fechar" id="fechar">Fechar</button>
+      </div>
+    </div>
+
+    <!--=============== SCROLL UP ===============-->
+    <!--
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+    -->
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

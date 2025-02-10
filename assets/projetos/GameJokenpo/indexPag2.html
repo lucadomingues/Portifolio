@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKENPO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="jokenpo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/75a9555218.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>JOKENPÔ</h1>
+    
+    <div class="selecione">
+        <button id="menos" onclick="antes()" class="btnValor"><</button>
+    </div>
+    <div class="selecione">
+        <img src="jokenpo.png" alt="inicial" id="opImg">
+        <p id="legImg"></p>
+    </div>
+    <div class="selecione">
+        <button id="mais" onclick="depois()" class="btnValor">></button>
+    </div>
+
+    <input type="text" id="valorOp" value="0">
+
+    <br>
+
+    <button onclick="jogar()" id="btnJogar">JOGAR</button>
+
+    <div id="placarGeral">
+        <p id="pontoP" class="ponto">0</p>
+        <p class="ponto">:</p>
+        <p id="pontoC" class="ponto">0</p>
+    </div>
+
+    <div>
+        <div class="imgRodada">
+            <img src="player.png" alt="playerImg" id="imgPlayer">
+            <p>PLAYER</p>
+        </div>
+        <div class="imgRodada">
+            <img src="vs.png" alt="vs" id="vs">
+        </div>
+        <div class="imgRodada">
+            <img src="computer.png" alt="compImg" id="imgComp">
+            <p>MÁQUINA</p>
+        </div>
+    </div>
+
+    <p id="resRodada"></p>
+    <p id="resGame"></p>
+
+    <br>
+    <a href="https://github.com/lucadomingues/GameJokenpo.git" target="_blank" class="retornar">Código GitHub  <i class="fa-brands fa-github"></i></a>
+    <a href="../../../index.html" class="retornar">Voltar ao Portifólio</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

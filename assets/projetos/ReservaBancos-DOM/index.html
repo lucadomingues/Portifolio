@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/75a9555218.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ônibus Turismo</h1>
+    <h2>Reserva de Bancos</h2>
+
+    <div id="bloco-legenda">
+        <div class="tit-conteudo">Legenda</div>
+        <div id="legenda">
+            <div id="leg-prim">Primeira Classe</div>
+            <div id="leg-eco">Econômica</div>
+        </div>
+    </div>
+
+    <p class="tit-conteudo">Status das reservas</p>
+
+    <form action="" id="form-tipo-acento">
+        <label for="tipoAcento">
+            "PRIMEIRA CLASSE (1) OU ECONÔMICA (2):"
+            <input type="number" id="tipo-acento">
+            <input type="button" value="CONFIRMAR" id="send" class="btn-send">
+        </label>
+    </form>
+
+    <div id="onibus">
+        <div class="fileira">
+            <div class="prim-classe" value="1" id="teste1">1</div>
+            <div class="prim-classe coluna1" value="2">2</div>
+            <div class="prim-classe" value="3">3</div>
+            <div class="prim-classe" value="4">4</div>
+        </div>
+        <div class="fileira">
+            <div class="economica" value="5">5</div>
+            <div class="economica coluna1" value="6">6</div>
+            <div class="economica" value="7">7</div>
+            <div class="economica" value="8">8</div>
+        </div>
+        <div class="fileira">
+            <div class="economica" value="9">9</div>
+            <div class="economica" value="10">10</div>
+        </div>
+    </div>
+
+    <form action="" id="form-lugar">
+        <label for="lugar">
+            Lugar: 
+            <input type="number" id="acento">
+            <input type="button" value="CONFIRMAR" id="btn-confirmar" class="btn-send">
+        </label>
+    </form>
+
+    <div id="cart-embarque">
+        <div id="div-cart-embarque">
+            <P><strong>CARTÃO DE EMBARQUE</strong></P>
+            <p id="banco">BANCO: </p>
+            <p id="classe">CLASSE: </p>
+            <button id="novo-embarque" class="btn-send">NOVO EMBARQUE</button>
+        </div>
+    </div>
+
+    <br>
+    <a href="https://github.com/lucadomingues/JavaScript-Estudo2024/tree/bdcd466a27a77e5b6bca7fd935f39b7e0ccba237/ReservaBancos-DOM" target="_blank" class="retornar">Código GitHub  <i class="fa-brands fa-github"></i></a>
+    <a href="../../../index.html" class="retornar">Voltar ao Portifólio</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

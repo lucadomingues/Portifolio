@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/75a9555218.js" crossorigin="anonymous"></script>
+    <title>Jokenpo</title>
+
+    <style>
+        body{
+            background: url(jokenpoLogo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding-top: 520px;
+        }
+
+        #inicial{
+            margin: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 20px;
+            color: rgb(43, 43, 43);
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 22px;
+            width: 500px;
+            margin: auto;
+        }
+
+        .retornar{
+            padding: 8px 10px;
+            background-color: #5100a3;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="inicial">
+        PRESSIONE "ENTER" PARA INICIAR O JOGO
+    </div>
+
+    <br>
+    <a href="https://github.com/lucadomingues/GameJokenpo.git" target="_blank" class="retornar">Código GitHub  <i class="fa-brands fa-github"></i></a>
+    <a href="../../../index.html" class="retornar">Voltar ao Portifólio</a>
+
+    <script>
+        document.addEventListener('keypress', function(e){
+        if(e.which == 13){
+            console.log("ENTER PRESSIONADO");
+            window.location.href = "indexPag2.html"
+        }
+        }, false);
+    </script>
+</body>
+</html>

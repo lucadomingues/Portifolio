@@ -1,0 +1,17 @@
+.is-4-tablet{
+    height: 350px;
+}
+
+.card{
+    height: 100%;
+}
+
+.card img{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.retornar i{
+    margin-left: 10px;
+}

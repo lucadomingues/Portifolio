@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <style>
+        input{
+            width: 210px;
+            height: 30px;
+            border-radius: 8px;
+        }
+        
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar has-shadow">
+        <!--Logo-->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="logo.png" alt="logoSite" style="max-height: 70px;" class="py-2 px-2">
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!--Botões Menu-->
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item" href="cadastro.html">Cadastre-se</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5-desktop has-text-centered">
+                    <img src="imagemLogin.png" alt="">
+                </div>
+                <div class="column is-3">
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Login</h1>
+                    <form action="login.html">
+                        <label for="">E-mail<br>
+                            <input type="email" required><br>
+                        </label>
+                        <label for="">Senha<br>
+                            <input type="password" required><br><br>
+                        </label>
+                        <button class="button is-rounded">Cadastrar</button>
+                    </form>
+                </div>
+                <div class="column is-5-desktop has-text-centered">
+                    <img src="imagemLogin.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/75a9555218.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta CEP</h2>
+        <form>
+            <div class="zona-input">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" maxlength="8">
+            </div>
+
+            <div class="zona-input">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+
+            <div class="zona-input">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+
+            <div class="zona-input">
+                <label for="cidade">Cidade</label><br>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+
+            <div class="zona-input">
+                <label for="estado">Estado</label><br>
+                <input type="text" name="estado" id="estado">
+            </div>
+        </form>
+        <span id="message"></span>
+    </div>
+
+    <div class="btnVoltar">
+        <a href="https://github.com/lucadomingues/ConsultaCEP.git" target="_blank" class="retornar">Código GitHub  <i class="fa-brands fa-github"></i></a>
+        <a href="../../../index.html" class="retornar">Voltar ao Portifólio</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

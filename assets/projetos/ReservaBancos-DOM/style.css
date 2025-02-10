@@ -1,0 +1,115 @@
+#onibus{
+    width: 250px;
+    height: 170px;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.prim-classe, .economica{
+    width: 40px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.selecionavel-prim-classe{
+    background-color: rgb(0, 132, 255);
+}
+
+.selecionavel-economica{
+    background-color: rgb(0, 145, 7);
+}
+
+.fileira{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.coluna1{
+    margin-right: 15px;
+}
+
+#legenda{
+    display:flex;
+}
+
+#legenda > div{
+    border: 1px solid black;
+    width: 150px;
+    height: 18px;
+    text-align: center;
+}
+
+#leg-prim{
+    background-color: rgb(0, 132, 255);
+}
+
+#leg-eco{
+    background-color: rgb(0, 145, 7);
+}
+
+#bloco-legenda{
+    display: flex;
+}
+
+#bloco-legenda > div{
+    margin-right: 10px;
+}
+
+.tit-conteudo{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#form-tipo-acento{
+    margin-bottom: 15px;
+}
+
+#tipo-acento{
+    width: 30px;
+    padding-left: 10px;
+}
+
+.btn-send{
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+}
+
+.btn-send:hover{
+    cursor: pointer;
+    background-color: rgb(153, 255, 0);
+    box-shadow: -2px -2px gray;
+}
+
+#form-lugar{
+    margin-top: 15px;
+}
+
+#cart-embarque{
+    display: none;
+    width: 250px;
+    height: 170px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#acento{
+    width: 30px;
+    padding-left: 10px;
+}
+
+.retornar{
+    padding: 8px 10px;
+    background-color: #5100a3;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
